@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+/*---------------------------------header-----*/
+
+header {	
+height:100px;
+}
+
+header img {
+float:left;
+height:20px;
+padding-left:1.5%;
+padding-top:65px;	
+}
+
+/*---------------------------------body-----*/
+
+body {
+}
+
+/*---------------------------------nav-----*/
+
+nav {
+	position:fixed;
+	width:100%;
+	height:3em;
+	background-color:#ccc;
+line-height:50px; 
+color:black;
+opacity:.5;
+}
+
+nav ul {
+text-align:center;
+width:60%;
+float:right;
+opacity:1;
+}
+
+nav li {
+width:20%;
+display:inline;
+font-family:'latohairline';
+font-size:.9em;
+float:left;
+opacity:1;
+}
+
+nav img {
+float:left;
+height:20px;
+padding-left:1.5%;
+padding-top:15px;
+opacity:1;	
+}
+
+/*---------------------------------intro div-----*/
+
+#intro {	
+}
+
+#intro p {	
+margin-left:100px;
+margin-right:100px;
+font-family:'latohairline';
+font-size:1.5em;
+line-height:1.25em;
+}
+
+
+/*---------------------------------main-----*/
+main {
+width:100%;	
+}
+
+/*---------------------------------image divs-----*/
+
+.oneimage {
+padding-top:50px;
+}
+
+.oneimage img {
+width:100%;
+}
+
+.twoimages {
+padding-top:50px;
+}
+
+.twoimages img {
+width:50%;
+float:left;
+}
+
+.threeimages {
+padding-top:50px;
+}
+
+.threeimages img {
+width:33.33333333%;
+float:left;	
+}
+
+/*---------------------------------text divs-----*/
+
+.text {
+	clear:both;
+	padding-top:50px;
+}
+
+.text p {	
+margin-left:100px;
+margin-right:100px;
+font-family:'latohairline';
+font-size:1.5em;
+line-height:1.25em;
+}
+
+/*---------------------------------quote divs-----*/
+
+.quote {
+		clear:both;
+}
+
+.quote p {	
+margin-left:100px;
+margin-right:100px;
+font-family:'latohairline';
+font-size:1.5em;
+line-height:1.25em;
+}
+
+.quote h2.top {
+color:#F5EB95;
+text-align:center;
+font-size:3em;
+font-family:'eight_days_a_weekregular';	
+padding-top:50px;
+}
+
+.quote h2.bottom {
+color:#F5EB95;
+text-align:center;
+font-size:3em;
+font-family:'eight_days_a_weekregular';	
+padding-top:.75em;
+padding-bottom:50px;
+}
+
+/*---------------------------------text and image divs-----*/
+
+.textimage {
+width:100%;	
+padding-top:50px;
+}
+
+.textimage img {
+	width:50%;
+float:right;	
+}
+
+.textimage p {
+	margin:25px 5% 25px 5%;
+	float:left;
+	width:40%;
+font-family:'latohairline';
+font-size:1.5em;
+line-height:1.25em;
+}
+
+/*---------------------------------typography-----*/
+
+@font-face {
+	font-family: 'bebas_neuebook';
+	src: url('../fonts/bebasneue_book-webfont.eot');
+	src: url('../fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/bebasneue_book-webfont.woff2') format('woff2'),  url('../fonts/bebasneue_book-webfont.woff') format('woff'),  url('../fonts/bebasneue_book-webfont.ttf') format('truetype'),  url('../fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'latohairline';
+    src: url('../fonts/lato-hairline-webfont.eot');
+    src: url('../fonts/lato-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-hairline-webfont.woff2') format('woff2'),
+         url('../fonts/lato-hairline-webfont.woff') format('woff'),
+         url('../fonts/lato-hairline-webfont.ttf') format('truetype'),
+         url('../fonts/lato-hairline-webfont.svg#latohairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'eight_days_a_weekregular';
+    src: url('../fonts/eight_days_a_week-webfont.eot');
+    src: url('../fonts/eight_days_a_week-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/eight_days_a_week-webfont.woff2') format('woff2'),
+         url('../fonts/eight_days_a_week-webfont.woff') format('woff'),
+         url('../fonts/eight_days_a_week-webfont.ttf') format('truetype'),
+         url('../fonts/eight_days_a_week-webfont.svg#eight_days_a_weekregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*--------------------------------links-----*/
+
+/* unvisited link */
+a:link {
+	color:#000000;
+}
+/* visited link */
+a:visited {
+	color:#717070;
+}
+/* mouse over link */
+a:hover {
+	color:#939292;
+}
+/* selected link */
+a:active {	
+}
+
